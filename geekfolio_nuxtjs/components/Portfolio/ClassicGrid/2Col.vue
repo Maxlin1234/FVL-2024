@@ -16,11 +16,12 @@
         <div class="row grid max-margin">
           <div :class="`col-md-6 items ${item.filter} info-overlay mb-80`" v-for="(item) in data.gallery" :key="item.id">
             <div class="item-img o-hidden">
-              <NuxtLink to="/dark/project-details1" class="imago wow">
+              <NuxtLink  to="/dark/project-details1"  class="imago wow">
                 <div class="inner wow">
                   <img :src="item.image" alt="image" />
                 </div>
               </NuxtLink>
+              
               <div class="info">
                 <span class="mb-15">
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -25,7 +25,7 @@
                 <div class="cont">
                   <span class="date fz-12 ls1 text-u opacity-7 mb-15">{{ item.date }}</span>
                   <h5>
-                    <!-- <NuxtLink to="/dark/blog-details">{{ item.title }}</NuxtLink> -->
+                    <NuxtLink to="/dark/blog-details">{{ item.title }}</NuxtLink>
                   </h5>
                   <div class="tags colorbg mt-15">
                     <NuxtLink to="/dark/blog-half-img" v-for="(tag) in item.tags" :key="tag">{{ tag }}</NuxtLink>

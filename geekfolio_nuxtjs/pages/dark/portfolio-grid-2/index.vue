@@ -4,6 +4,10 @@
     <main class="main-bg">
       <PortfolioHeader :data="metadata" />
       <PortfolioClassicGrid2Col />
+      <PortfolioClassicGrid2Col />
+      <PortfolioClassicGrid2Col />
+      <PortfolioClassicGrid2Col />
+      
     </main>
     <StartupFooter :subBg="true" />
   </div>
