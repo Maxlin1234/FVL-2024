@@ -1,4 +1,6 @@
-
+//vue.config.js
 module.exports = {
-    publicPath: '/hello-vue-app/'
-  }
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Main_Files/'
+    : '/'
+}
