@@ -1,26 +1,26 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { provider, isWindows } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/std-env/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/h3/dist/index.mjs';
-import { createRenderer } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/devalue/index.js';
-import { renderToString } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/vue/server-renderer/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/linhankuan/Main_Files/geekfolio_nuxtjs/node_modules/radix3/dist/index.mjs';
+import { provider, isWindows } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/std-env/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/h3/dist/index.mjs';
+import { createRenderer } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/devalue/index.js';
+import { renderToString } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/vue/server-renderer/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/scule/dist/index.mjs';
+import { klona } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/linhankuan/Main_Files%E6%8B%B7%E8%B2%9D6test%E6%8B%B7%E8%B2%9D122/geekfolio_nuxtjs/node_modules/radix3/dist/index.mjs';
 
 const inlineAppConfig = {};
 
@@ -109,7 +109,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Users/linhankuan/Main_Files/geekfolio_nuxtjs/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/linhankuan/Main_Files拷貝6test拷貝122/geekfolio_nuxtjs/server/assets"}];
 
 const assets = createStorage();
 
@@ -121,10 +121,10 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/linhankuan/Main_Files/geekfolio_nuxtjs","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/linhankuan/Main_Files/geekfolio_nuxtjs/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/linhankuan/Main_Files/geekfolio_nuxtjs/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/linhankuan/Main_Files/geekfolio_nuxtjs/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/linhankuan/Main_Files拷貝6test拷貝122/geekfolio_nuxtjs","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/linhankuan/Main_Files拷貝6test拷貝122/geekfolio_nuxtjs/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/linhankuan/Main_Files拷貝6test拷貝122/geekfolio_nuxtjs/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/linhankuan/Main_Files拷貝6test拷貝122/geekfolio_nuxtjs/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -531,11 +531,11 @@ const errorHandler = (async function errorhandler(error, event) {
   event.node.res.end(await res.text());
 });
 
-const _lazy_Eh0rBO = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_ugKM2C = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_Eh0rBO, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_Eh0rBO, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_ugKM2C, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_ugKM2C, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -676,9 +676,9 @@ function publicAssetsURL(...path) {
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('/Users/linhankuan/Main_Files/geekfolio_nuxtjs/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('/Users/linhankuan/Main_Files拷貝6test拷貝122/geekfolio_nuxtjs/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('/Users/linhankuan/Main_Files/geekfolio_nuxtjs/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('/Users/linhankuan/Main_Files拷貝6test拷貝122/geekfolio_nuxtjs/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
@@ -900,7 +900,7 @@ const renderer$1 = /*#__PURE__*/Object.freeze({
       default: renderer
 });
 
-const _virtual__headStatic = {"headTags":"<meta charset=\"utf-8\">\n<title>Geekfolio</title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"keywords\" content=\"Vue Nuxtjs Template Geekfolio Multi-Purpose themeforest\">\n<meta name=\"description\" content=\"Geekfolio - Multi-Purpose Vue Nuxtjs Template\">\n<meta name=\"author\" content=\"themescamp\">\n<link rel=\"shortcut icon\" href=\"/dark/assets/imgs/favicon.ico\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap\">\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css\">\n<link rel=\"stylesheet\" href=\"/dark/assets/css/plugins.css\">\n<link rel=\"stylesheet\" href=\"/dark/assets/css/style.css\">\n<script src=\"/assets/js/plugins.js\"></script>\n<script src=\"/assets/js/TweenMax.min.js\"></script>\n<script src=\"/assets/js/charming.min.js\"></script>\n<script src=\"/assets/js/countdown.js\"></script>\n<script src=\"/assets/js/ScrollTrigger.min.js\"></script>\n<script src=\"/assets/js/gsap.min.js\"></script>\n<script src=\"/assets/js/splitting.min.js\"></script>\n<script src=\"/assets/js/isotope.pkgd.min.js\"></script>\n<script src=\"/assets/js/imgReveal/imagesloaded.pkgd.min.js\"></script>\n<script src=\"/assets/js/ScrollSmoother.min.js\"></script>\n<script src=\"/showcase/assets/js/anime.min.js\"></script>\n<script src=\"/assets/js/scripts.js\" defer=\"\"></script>","bodyTags":"","bodyTagsOpen":"","htmlAttrs":" lang=\"en\"","bodyAttrs":""};
+const _virtual__headStatic = {"headTags":"<meta charset=\"utf-8\">\n<title>FUTURE VISION LAB 2023</title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"keywords\" content=\"DOME 2.0 戶外穹頂劇場\">\n<meta name=\"description\" content=\"臺灣當代文化實驗場（C-LAB）自 2020 年正式啟動「科技媒體實驗平台」，著重於媒體實驗創新與社會鏈結，以跨域、共創、協作方式，打造文化與科技的實驗平台。\">\n<meta name=\"author\" content=\"themescamp\">\n<link rel=\"shortcut icon\" href=\"/dark/assets/imgs/favicon.ico\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap\">\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css\">\n<link rel=\"stylesheet\" href=\"/dark/assets/css/plugins.css\">\n<link rel=\"stylesheet\" href=\"/dark/assets/css/style.css\">\n<script src=\"/assets/js/plugins.js\"></script>\n<script src=\"/assets/js/TweenMax.min.js\"></script>\n<script src=\"/assets/js/charming.min.js\"></script>\n<script src=\"/assets/js/countdown.js\"></script>\n<script src=\"/assets/js/ScrollTrigger.min.js\"></script>\n<script src=\"/assets/js/gsap.min.js\"></script>\n<script src=\"/assets/js/splitting.min.js\"></script>\n<script src=\"/assets/js/isotope.pkgd.min.js\"></script>\n<script src=\"/assets/js/imgReveal/imagesloaded.pkgd.min.js\"></script>\n<script src=\"/assets/js/ScrollSmoother.min.js\"></script>\n<script src=\"/showcase/assets/js/anime.min.js\"></script>\n<script src=\"/assets/js/scripts.js\" defer=\"\"></script>","bodyTags":"","bodyTagsOpen":"","htmlAttrs":" lang=\"en\"","bodyAttrs":""};
 
 const _virtual__headStatic$1 = /*#__PURE__*/Object.freeze({
       __proto__: null,

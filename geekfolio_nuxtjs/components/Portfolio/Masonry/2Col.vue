@@ -27,9 +27,9 @@
                       fill="currentColor"></path>
                   </svg>
                 </span>
-                <h6 class="sub-title tag">
+                <!-- <h6 class="sub-title tag">
                   <NuxtLink to="/dark/project-details1">© {{ item.year }} <br /> {{ item.type }}</NuxtLink>
-                </h6>
+                </h6> -->
                 <h5>
                   <NuxtLink to="/dark/project-details1">{{ item.title }}</NuxtLink>
                 </h5>

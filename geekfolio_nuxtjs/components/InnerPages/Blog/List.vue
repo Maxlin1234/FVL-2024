@@ -28,7 +28,43 @@
   </section>
 </template>
   
+<!-- <script setup> -->
 <script setup>
-//= Data
-import data from '@/data/InnerPages/Blog/list.json';
+ import data from '@/data/InnerPages/Blog/list.json';
+//  import axios from 'axios';
+//  import Vue from 'vue';
+
+//  new Vue({
+//             el:'#app',
+//             data:{
+//                 input:'',
+//               schedule:[]  
+//             },
+//             methods:{
+//                 createHandler(){
+//                     console.log('CLICK',this.input)
+//                     axios.post('https://unzip-clab-api.clab.org.tw/api/v1/schedules?limit=25',{
+//                         content:this.input
+//                     }).then((res)=> {
+//                         this.input=''
+//                         this.contents.push(res.data)
+//                         console.log(res)})
+//                 }
+//             },
+//             mounted() {
+
+//             axios.get('https://unzip-clab-api.clab.org.tw/api/v1/schedules?limit=25')
+//         .then((res)=>{
+//          console.log(res.data);
+//          this.schedule = res.data;
+//         })
+//        //捕捉錯誤
+//        .catch(err =>
+//        {
+//        console.log(err.response);
+//         }) 
+//     }
+//         })
+
+
 </script>

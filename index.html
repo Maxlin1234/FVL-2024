@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta nmae="viewport" content="width=device-width , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue data</title>
+</head>
+ 
+<body> 
+<div id="app">
+    <p>
+        <input type="text" v-model="input">
+        <a href="javascript:;" v-on:click="createHandler">CREATE</a>
+    </p>
+    <ol>
+        <!-- <li v-for="data in contents"> -->
+            <li v-for="content in schedule"> {{content.name_zh}}</li>
+           <!-- {{schedule.content}}  -->
+           <a href="javascript:;">UPDATE</a>
+           <a href="javascript:;">DELETE</a>
+        </li>
+    </ol> 
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js">
+    </script>
+
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                input:'',
+              schedule:[]  
+            },
+            methods:{
+                createHandler(){
+                    console.log('CLICK',this.input)
+                    axios.post('https://unzip-clab-api.clab.org.tw/api/v1/schedules?limit=25',{
+                        content:this.input
+                    }).then((res)=> {
+                        this.input=''
+                        this.contents.push(res.data)
+                        console.log(res)})
+                }
+            },
+            mounted() {
+
+            axios.get('https://unzip-clab-api.clab.org.tw/api/v1/schedules?limit=25')
+        .then((res)=>{
+         console.log(res.data);
+         this.schedule = res.data;
+        })
+       //捕捉錯誤
+       .catch(err =>
+       {
+       console.log(err.response);
+        }) 
+    }
+        })
+
+</script>
+

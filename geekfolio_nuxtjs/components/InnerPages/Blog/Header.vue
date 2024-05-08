@@ -1,5 +1,5 @@
 <template>
-  <header class="page-header section-padding pb-0">
+  <!-- <header class="page-header section-padding pb-0">
     <div class="container mt-80">
       <div class="row">
         <div class="col-lg-8">
@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-  </header>
+  </header> -->
 </template>
   
 <script setup>

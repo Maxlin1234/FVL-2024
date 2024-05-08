@@ -2,7 +2,7 @@
   <div>
     <CommonNavbar />
     <main class="main-bg">
-      <InnerPagesBlogHeader :data="metadata" />
+      <PortfolioHeader :data="metadata" />
       <InnerPagesBlogList />
     </main>
     <StartupFooter />
@@ -10,11 +10,24 @@
 </template>
 
 <script setup>
+// axios.get('https://unzip-clab-api.clab.org.tw/api/v1/schedules?limit=25')
+// .then((res)=>{
+//          console.log(res.data);
+//          this.schedule = res.data;
+//         })
+//        //捕捉錯誤
+//        .catch(err =>
+//        {
+//        console.log(err.response);
+//         }) 
 const metadata = {
-  subTitle: "OUR BLOG",
-  title: "Latest News."
+  title: "最新消息"
 }
+
+// OUR BLOG
+// Latest News.
 //= Page Head
+
 useHead({
   titleTemplate: `%s - Blog List`,
   bodyAttrs: {

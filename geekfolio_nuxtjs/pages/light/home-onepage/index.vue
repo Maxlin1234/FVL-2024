@@ -3,6 +3,7 @@
     <CommonNavbar :lightMode="true" :curve="true" :noStatic="true" />
     <main class="main-bg">
       <OnePageHeader />
+      <OnePageBlog />
       <OnePageAbout />
       <OnePageMarq />
       <OnePageServices :lightMode="true" />
@@ -11,7 +12,6 @@
       <OnePageTestimonials />
       <OnePageImageSection />
       <OnePageTeam />
-      <OnePageBlog />
       <OnePageContact />
     </main>
     <OnePageFooter :lightMode="true" />

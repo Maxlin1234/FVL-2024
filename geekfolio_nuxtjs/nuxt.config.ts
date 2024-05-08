@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Geekfolio",
+      title: "FUTURE VISION LAB 2023",
       htmlAttrs: {
         lang: 'en'
       },
@@ -28,11 +28,11 @@ export default defineNuxtConfig({
         },
         {
           name: 'keywords',
-          content: 'Vue Nuxtjs Template Geekfolio Multi-Purpose themeforest'
+          content: 'DOME 2.0 戶外穹頂劇場'
         },
         {
           name: 'description',
-          content: 'Geekfolio - Multi-Purpose Vue Nuxtjs Template'
+          content: '臺灣當代文化實驗場（C-LAB）自 2020 年正式啟動「科技媒體實驗平台」，著重於媒體實驗創新與社會鏈結，以跨域、共創、協作方式，打造文化與科技的實驗平台。'
         },
         {
           name: 'author',
@@ -78,4 +78,19 @@ export default defineNuxtConfig({
       }
     }
   }
+  // const config = {
+  //   build:{
+  //     router:{
+  //       extendRoutesz(routes,resolve){
+  //         routes.push({
+  //           name:'index.html',
+  //           path:'/index.html',
+  //           component:resolve(__dirname,'pages/index.vue'),
+  //         });
+  //       },
+  //     },
+  //   },
+  // };
+  // export default config;
+  
 })

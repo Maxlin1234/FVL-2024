@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio-fixed">
+  <section class="portfolio-fixed" style="margin-top: 60px;">
     <div class="container-fluid rest">
       <div class="row">
         <div class="col-lg-6 rest" style="position: relative">
@@ -20,8 +20,8 @@
               <div class="col-md-9">
                 <p>{{ item.text }}.</p>
                 <div class="vew-all mt-50 ml-25">
-                  <NuxtLink to="/dark/project-details2" class="sub-title">
-                    Explore More
+                  <!-- <NuxtLink to="/dark/project-details2" class="sub-title">
+                    瞭解更多
                     <span>
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -29,7 +29,7 @@
                           fill="currentColor"></path>
                       </svg>
                     </span>
-                  </NuxtLink>
+                  </NuxtLink> -->
                 </div>
               </div>
             </div>
